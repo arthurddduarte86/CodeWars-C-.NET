@@ -1,0 +1,5 @@
+D:\CodeWars-C-.NET\Personal\Projeto01\obj\Debug\net8.0\Projeto01.GeneratedMSBuildEditorConfig.editorconfig
+D:\CodeWars-C-.NET\Personal\Projeto01\obj\Debug\net8.0\Projeto01.AssemblyInfoInputs.cache
+D:\CodeWars-C-.NET\Personal\Projeto01\obj\Debug\net8.0\Projeto01.AssemblyInfo.cs
+D:\CodeWars-C-.NET\Personal\Projeto01\obj\Debug\net8.0\Projeto01.csproj.CoreCompileInputs.cache
+D:\CodeWars-C-.NET\Personal\Projeto01\obj\Debug\net8.0\Projeto01.sourcelink.json

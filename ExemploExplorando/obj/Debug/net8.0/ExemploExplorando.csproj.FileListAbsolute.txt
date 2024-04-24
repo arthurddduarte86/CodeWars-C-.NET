@@ -1,0 +1,15 @@
+D:\CodeWars-C-.NET\ExemploExplorando\bin\Debug\net8.0\ExemploExplorando.exe
+D:\CodeWars-C-.NET\ExemploExplorando\bin\Debug\net8.0\ExemploExplorando.deps.json
+D:\CodeWars-C-.NET\ExemploExplorando\bin\Debug\net8.0\ExemploExplorando.runtimeconfig.json
+D:\CodeWars-C-.NET\ExemploExplorando\bin\Debug\net8.0\ExemploExplorando.dll
+D:\CodeWars-C-.NET\ExemploExplorando\bin\Debug\net8.0\ExemploExplorando.pdb
+D:\CodeWars-C-.NET\ExemploExplorando\obj\Debug\net8.0\ExemploExplorando.GeneratedMSBuildEditorConfig.editorconfig
+D:\CodeWars-C-.NET\ExemploExplorando\obj\Debug\net8.0\ExemploExplorando.AssemblyInfoInputs.cache
+D:\CodeWars-C-.NET\ExemploExplorando\obj\Debug\net8.0\ExemploExplorando.AssemblyInfo.cs
+D:\CodeWars-C-.NET\ExemploExplorando\obj\Debug\net8.0\ExemploExplorando.csproj.CoreCompileInputs.cache
+D:\CodeWars-C-.NET\ExemploExplorando\obj\Debug\net8.0\ExemploExplorando.sourcelink.json
+D:\CodeWars-C-.NET\ExemploExplorando\obj\Debug\net8.0\ExemploExplorando.dll
+D:\CodeWars-C-.NET\ExemploExplorando\obj\Debug\net8.0\refint\ExemploExplorando.dll
+D:\CodeWars-C-.NET\ExemploExplorando\obj\Debug\net8.0\ExemploExplorando.pdb
+D:\CodeWars-C-.NET\ExemploExplorando\obj\Debug\net8.0\ExemploExplorando.genruntimeconfig.cache
+D:\CodeWars-C-.NET\ExemploExplorando\obj\Debug\net8.0\ref\ExemploExplorando.dll
