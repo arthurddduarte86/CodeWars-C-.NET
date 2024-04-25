@@ -1,6 +1,138 @@
 ﻿using ExemploExplorando.Models;
 
-Pessoa p1 = new Pessoa(nome: "Arthur", sobrenome: "Duarte");
+
+// Trabalhando com dicionários
+
+Dictionary<string, string> estadosBR = new Dictionary<string, string>();
+
+estadosBR.Add("SP", "São Paulo");
+estadosBR.Add("MG", "Minas Gerais");
+estadosBR.Add("RJ", "Rio de Janeiro");
+estadosBR.Add("PR", "Paraná");
+
+foreach(var item in estadosBR)
+{
+    Console.WriteLine($"Chave: {item.Key}, Valor: {item.Value}");
+    //Console.WriteLine(item);
+}
+// alterar o valor de uma chave
+estadosBR["SP"] = "São Paulo, com valor alterado";
+foreach(var item in estadosBR)
+{
+    Console.WriteLine($"Chave: {item.Key}, Valor: {item.Value}");
+}
+
+
+//Pra verificar a existência de uma chave
+string chave = "SP";
+Console.WriteLine($"Verificando/Pesquisando a existência da chave {chave}");
+
+if(estadosBR.ContainsKey(chave))
+{
+    Console.WriteLine($"Chave existente: {chave}");
+}
+else
+{
+    Console.WriteLine($"Chave não encontrada: {chave}");
+}
+
+
+
+
+
+
+
+//Trabalhando com filas
+/* 
+Queue<int> fila = new Queue<int>();
+
+fila.Enqueue(11);
+fila.Enqueue(22);
+fila.Enqueue(33);
+fila.Enqueue(44);
+
+foreach(int item in fila)
+{
+    Console.WriteLine($"Item - {item}");
+}
+
+
+//removendo item de uma fila, OBS.: por padrão, só se remove o primeiro a entrar (FIFO)
+// fila.Dequeue();
+
+Console.WriteLine($"Removendo o elemento: {fila.Dequeue()}");
+
+foreach(int item in fila)
+{
+    Console.WriteLine($"Item - {item}");
+}
+ */
+
+// Trabalhando com Pilhas, Pilha é o contrário de Filas, Filas são FIFO, Pilhas são LIFO
+/* 
+Stack<int> stack01 = new Stack<int>();
+
+stack01.Push(11);
+stack01.Push(22);
+stack01.Push(33);
+stack01.Push(44);
+
+foreach(int itemstack in stack01)
+{
+    Console.WriteLine(itemstack);
+}
+
+//Remover elemento da pilha
+//stack01.Pop(); //remove sempre o ultimo elemento
+
+Console.WriteLine($"Removendo o elemento {stack01.Pop()}");
+stack01.Push(200);
+
+foreach(int itemstack in stack01)
+{
+    Console.WriteLine(itemstack);
+}
+ */
+
+
+
+
+
+
+
+
+
+
+
+/* try{
+    string[] linhas = File.ReadAllLines("Arquivos/arquivoLeitura.txt");
+
+    foreach(string linha in linhas)
+    {
+        Console.WriteLine(linha);
+    }
+}catch(FileNotFoundException ex)
+{
+    Console.WriteLine($"Arquivo não encontrado, ocorreu um erro na leitura do arquivo. {ex.Message}");
+}
+catch(DirectoryNotFoundException ex)
+{
+    Console.WriteLine($"Diretório não encontrado, ocorreu um erro, caminho da pasta não encontrada. {ex.Message}");
+}
+catch(Exception ex)
+{
+    Console.WriteLine($"Ocorreu uma exceção genérica. {ex.Message}");
+}
+
+ */
+
+
+
+
+
+
+
+/* Pessoa p1 = new Pessoa(nome: "Arthur", sobrenome: "Duarte");
 
 Pessoa p2 = new Pessoa(nome: "Eduardo", sobrenome: "Neves Queiroz");
 
@@ -13,7 +145,7 @@ cursoDeInglês.Alunos = new List<Pessoa>();
 cursoDeInglês.AdicionarAluno(p1);
 cursoDeInglês.AdicionarAluno(p2);
 cursoDeInglês.ListarAlunos();
-
+ */
 
 
 
