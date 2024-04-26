@@ -1,6 +1,65 @@
 ﻿using ExemploExplorando.Models;
 
 
+
+LeituraArquivo arquivo = new LeituraArquivo();
+
+var (sucesso, LinhasDoArquivo, quantidadeDeLinhas) = arquivo.LerArquivo("Arquivos/arquivoLeitura.txt");
+
+if (sucesso)
+{
+    Console.WriteLine("Quantidade total de linhas: " + quantidadeDeLinhas);
+    foreach(string linha in LinhasDoArquivo)
+    {
+        Console.WriteLine(linha);
+    }
+}
+else
+{
+    Console.WriteLine("Não foi possível ler o arquivo");
+}
+
+
+
+
+
+
+
+
+/* 
+//trabalhando com TUPLAS
+
+//Uma forma de declarar tuplas
+(int Id, string Nome, string Sobrenome, decimal Altura) minhaTupla = (1, "Arthur", "Duarte", 1.80M);
+
+//segunda forma de declarar tuplas
+ValueTuple<int, string, string, decimal> outraTupla = (2, "José", "Silva", 1.70M);
+
+//esta forma de criar reconhece os tipos pela atribuição de valores
+var maisOutraTupla = Tuple.Create(3, "Carlos", "Antunes", 1.80M); 
+
+
+Console.WriteLine($"ID: {minhaTupla.Id}");
+Console.WriteLine($"Nome: {minhaTupla.Nome}");
+Console.WriteLine($"Sobrenome: {minhaTupla.Sobrenome}");
+Console.WriteLine($"Altura: {minhaTupla.Altura}"); */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
 // Trabalhando com dicionários
 
 Dictionary<string, string> estadosBR = new Dictionary<string, string>();
@@ -36,7 +95,7 @@ else
     Console.WriteLine($"Chave não encontrada: {chave}");
 }
 
-
+ */
 
 
 
